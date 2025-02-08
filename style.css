@@ -84,6 +84,7 @@ font-family: "Cabin", serif;
     width: 2%;
     height: 500px;
     /* background-color: aqua; */
+    /* background-color: rgb(234, 234, 240); */
 }
 .left ul {
     transform: rotate(-90deg);
@@ -107,7 +108,7 @@ font-family: "Cabin", serif;
 .right{
     width: 96%;
     height: 500px;
-    background-color: rgb(234, 234, 240);
+    background-color: rgb(206, 206, 214);
     display: flex;
     gap: 8%;
     align-items: center;
@@ -569,6 +570,18 @@ span{
     border-radius: 10px;
     border: solid 10px white;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.pici:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.picii:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.piciii:hover{
+    transform: scale(1.1);
+    transition: all 1s;
 }
 .num2{
     width: 99%;
